@@ -1,0 +1,167 @@
+.main_container {
+  width: 80vw;
+  height: 100%;
+  margin: 100px auto;
+}
+
+.interactive_container {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.img_container {
+  min-width: 610px;
+  width: 70%;
+  > img {
+    width: 100%;
+  }
+}
+
+.info_container {
+    height: 70%;
+    min-width: 490px;
+    width: 53%;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    padding: 11% 7% 0 7%;
+
+    position: absolute;
+    top: 30%;
+    left: 47%;
+
+    > h2 {
+      margin: 0 0 40px 0;
+      text-transform: uppercase;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 48px;
+    }
+
+    > p {
+      padding: 0;
+      font-family: 'Alata', sans-serif;
+      color: hsl(0, 0%, 55%);
+      font-size: 15px;
+      text-transform: none;
+    }
+
+}
+
+.creations_container {
+  margin-top: 120px;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+  > h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+  }
+
+  > button {
+    border: none;
+    box-sizing: border-box;
+    height: 35px;
+    width: 110px;
+
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.imgs_container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .imgs_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .info_container {
+    left: 32%;
+    top: 32%
+  }
+}
+
+@media (max-width: 767px) {
+  .main_container {
+    position: relative;
+  }
+
+  .interactive_container {
+    position: static;
+    flex-direction: column;
+  }
+
+  .img_container {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .info_container {
+    min-width: auto;
+    position: static;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+    > h2 {
+      font-size: 30px;
+    }
+  }
+
+  .creations_container {
+    margin: 0;
+  }
+
+  .title_container {
+    margin-bottom: 0;
+
+    > h2 {
+      font-size: 30px;
+      margin: 24px auto;
+    }
+    > button {
+      border: 2px solid black;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+
+      position: absolute;
+      top: 101%;
+      right: calc(50% - 55px);
+
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: .5s;
+
+      &:hover {
+        color: white;
+        background-color: black;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .imgs_container {
+    grid-template-columns: 1fr;
+  }
+}
+
+  

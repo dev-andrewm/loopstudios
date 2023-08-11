@@ -1,0 +1,16 @@
+{
+  "git.enabled":false,
+  "files.exclude": {
+    "node_modules": true,
+    ".gitignore": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "index.html": true,
+    "README.md": false,
+    "public": true,
+    "src/img": true,
+    "src/logo.svg": true,
+    "src/index.css": true,
+    "src/App.css": true,
+  }
+}

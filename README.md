@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/dev-andrewm/loopstudios
-- Live Site URL: https://dev-andrewm.github.io/
+- Live Site URL: https://dev-andrewm.github.io/loopstudios/
 
 ## My process
 

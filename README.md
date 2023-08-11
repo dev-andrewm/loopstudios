@@ -21,14 +21,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshots/big_screen.jpg)
-![](screenshots/medium_screen.jpg)
+![](screenshots/big_screen1.jpg)
+![](screenshots/medium_screen2.jpg)
 ![](screenshots/small_screen1.jpg) ![](screenshots/small_screen2.jpg)
 
 ### Links
 
-- Solution URL: https://github.com/dev-andrewm/testimonials-grid-section-main
-- Live Site URL: https://dev-andrewm.github.io/testimonials-grid-section-main/
+- Solution URL: https://github.com/dev-andrewm/loopstudios
+- Live Site URL: https://github.com/dev-andrewm/loopstudios
 
 ## My process
 

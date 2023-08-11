@@ -44,6 +44,10 @@ function App() {
       />
       <Routes>
         <Route
+          path="/loopstudios"
+          element={<Home isSmallScreen={isSmallScreen} />}
+        ></Route>
+        <Route
           path="/"
           element={<Home isSmallScreen={isSmallScreen} />}
         ></Route>

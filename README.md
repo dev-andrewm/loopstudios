@@ -22,7 +22,8 @@ Users should be able to:
 ### Screenshot
 
 ![](screenshots/big_screen1.jpg)
-![](screenshots/medium_screen2.jpg)
+
+![](screenshots/big_screen2.jpg)
 ![](screenshots/small_screen1.jpg) ![](screenshots/small_screen2.jpg)
 
 ### Links
